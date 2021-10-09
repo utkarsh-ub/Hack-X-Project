@@ -1,6 +1,6 @@
 h1 {
     font-family: "Montserrat";
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1.5;
     font-weight:600;
   }
@@ -13,17 +13,44 @@ h1 {
     padding: 0px;
     overflow-x: hidden; 
   }
-
+  .learn{
+    width: 100%;
+    height: 100px;
+    background-color: #D84E4E;
+    color: white;
+    border-radius: 50px;
+    font-family: Cascadia Mono;
+    font-size: 50px;
+    
+    margin-top: 50px;
+    
+    border: 0;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+ 
+  }
 
 
 
 
 /* Navigation portion */
 
-#nav-portion{
-  background-color: #664E88;
-  color: #a9dd19;
-  
+#nav-portion{background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .logo{
@@ -37,9 +64,10 @@ h1 {
 }
 
 .navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2rem;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 4rem;
   font-weight: bold;
+ padding-left: 30%;
 }
 
 .nav-link {
@@ -51,15 +79,11 @@ h1 {
   .adjust{
     padding-left: 8%;
   }
-
-
-
-
-
-
-
-
   .title-image {
+    width: 90%;
+     text-align:right;
+  }
+  .title-image2 {
     width: 90%;
      text-align:right;
   }
@@ -78,31 +102,12 @@ h1 {
     color: #32ad5b;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* title portion */
 
-  .download-button {
-    margin: 5% 3% 5% 0;
-  }
-
-  .title-image {
-    width: 50%;
-     text-align:right;
+ 
+  .title-image3{
+    width: 90%;
+     text-align:left;
   }
   
   h3 {
@@ -121,6 +126,7 @@ h1 {
     font-family: "Montserrat";
     padding: 7% 15%;
     text-align: center;
+    height: 70vh;
   }
   #title-portion p{
     color:#fcfdfd;
@@ -136,16 +142,7 @@ h1 {
 
   color: #fff;;
 }
-
-
-
-
 /* second title part */
-
-
-
-
-
 #title-portion2{
   background-color:#A9E4D7;
   color: #fff;;
@@ -153,176 +150,51 @@ h1 {
   padding: 7% 15%;
   text-align:left;
 }
+#title-portion1{
+  background-color:#A9E4D7;
+  color: #fff;;
+  font-family: "Montserrat";
+  padding: 7% 15%;
+  text-align:left;
+  background-color:#63B4B8;
+    color:#fff;
+    font-family: "Montserrat";
+}
+#title-portion3{
+  background-color:#A9E4D7;
+  color: #fff;;
+  font-family: "Montserrat";
+  padding: 7% 15%;
+  text-align:left;
+  background-color:#63B4B8;
+    color:#fff;
+    font-family: "Montserrat";
+}
 #title-portion2 p{
   color:#4B3869;
 }
-
-
 .row_head_secondp{
 
   color:#fcfdfd;
 }
-
-
-
-
-
-
-
-
-
-
 /* testimonial part */
 
 #testimonials {
-  padding: 7% 15%;
+  padding: 2% 15%;
   text-align: center;
   background-color:  #184d47;
   color: #fff;
 }
 
-.testimonial-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
-}
-
-#press {
-  background-color:  #184d47;
-  padding-bottom: 3%;
-  text-align: center;
-}
-
-.logo-cred {
-  width: 15%;
-  margin: 20px 20px 50px;
-}
-
-
-
-
-
-
-/*features portion*/
-
-#features {
-    background-color: #fff;
-  }
-  
-  .feature-box {
-    text-align: center;
-    padding: 5%;
-  }
-  
-  .utkarsh {
-    color: #184d47;
-    margin-bottom: 1rem;
-  }
-  
-  .utkarsh:hover {
-    color: #f9e45b;
-  }
-
-
-
-
-
-
-
-
-/* search portion */
-
-
-  #pricing {
-    padding: 0 8% 0 ;
-    background-color: #fffbfd;
-  }
-
-.pricing-p{
-  color: #206a5d;
- 
-}
-  
-.above{
-  color: #325288;
-}
-  .pricing-column {
-    padding: 3% 2%;
-  }
 
 #heading{
   font-size: 2.5rem;
 }
 
-/* cta portion */
-
-  #cta {
-    background-color: #1b4d5a;
-    color: #fff;
-    padding: 7% 15%;
-    text-align: center;
-  }
-  
-  .cta-heading {
-    font-family: "Montserrat";
-    font-size: 2.5rem;
-    line-height: 1.5;
-    font-weight: 600;
-  }
 
 #testimonials{
 background-color: #63B4B8;
 }
-
-/* footer portion */
-
-  #footer {
-    padding: 7% 15%;
-  
-    background-color:#664E88 ;
-  }
-  
-  .social-icon{
-    width: 25%;
-    padding-left: 2%;
-    padding-top: 10%;
-    
-    }
-    
-    .uttu{
-      padding-left: 10%;
-    }
-  #foot{
-    font-size: 25px;
-    color:rgb(8, 8, 8);
-  }
-  
-  .footer-image{
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-  }
-
- 
-.b{
-  align-content: center;
-  color: blue;
-}
-
-#carouselExampleControls{
-  width: 50vw;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-
-#carouselExampleControls img{
-  width: 100%;
-  height: fit-content;
-}
-
-
 
 
 
