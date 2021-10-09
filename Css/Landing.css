@@ -2,12 +2,11 @@
     margin: 0;
    padding: 0;
    box-sizing: border-box; 
+
 }
-
-@import url(//fonts.googleapis.com/css?family=Lato:300:400);
-
 body {
   margin:0;
+  
 }
 
 h1 {
@@ -16,17 +15,21 @@ h1 {
  
 }
 .learn{
-    width: 200px;
+    width: 20%;
     height: 50px;
     background-color: #D84E4E;
     color: white;
     border-radius: 50px;
     font-family: Cascadia Mono;
     border: 0;
+    margin-left: 80%;
 }
 span{
     font-size: 45px;
     font-weight:300;
+}
+img{
+    width:20%;
 }
 p {
   font-family: 'Lato', sans-serif;
@@ -36,21 +39,14 @@ p {
 }
 
 .header {
-  position:relative;
+  
   text-align:center;
   background: linear-gradient(60deg, #7F96F0 0%, #e95353 100%);
   color:white;
 }
-.logo {
-  width:50px;
-  fill:white;
-  padding-right:15px;
-  display:inline-block;
-  vertical-align: middle;
-}
 
 .inner-header {
-  height:65vh;
+ 
   width:100%;
   margin: 0;
   padding: 0;
@@ -59,6 +55,12 @@ p {
 .flex { /*Flexbox for containers*/
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.svg{
+    width: 50%;
+    justify-content: center;
   align-items: center;
   text-align: center;
 }
