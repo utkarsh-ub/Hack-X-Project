@@ -12,7 +12,7 @@ margin:0;
 
 
 h1{
-  padding-top: 5%;
+  padding-top: 1%;
 font-size: 50px
 }
 .learn{
@@ -54,6 +54,7 @@ color: #333333;
 text-align:center;
 background: linear-gradient(60deg, #7F96F0 0%, #e95353 100%);
 color:white;
+
 }
 
 .inner-header {
