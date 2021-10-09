@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+ padding: 0;
+ box-sizing: border-box; 
+
+}
+body {
+margin:0;
+
+}
+
+h1{
+font-size: 50px
+}
+.learn{
+width: 20%;
+height: 50px;
+
+color: white;
+border-radius: 50px;
+font-family: Cascadia Mono;
+border: 0;
+margin-left: 80%;
+}
+.learn{
+  width: 20%;
+  height: 50px;
+  background-color: #D84E4E;
+  color: white;
+  border-radius: 50px;
+  font-family: Cascadia Mono;
+  border: 0;
+  margin-left: 80%;
+}
+span{
+  font-size: 45px;
+  font-weight:300;
+}
+img{
+  width:20%;
+}
+p {
+font-family: 'Lato', sans-serif;
+letter-spacing: 1px;
+font-size:14px;
+color: #333333;
+}
+
+.header {
+
+text-align:center;
+background: linear-gradient(60deg, #7F96F0 0%, #e95353 100%);
+color:white;
+}
+
+.inner-header {
+
+width:100%;
+margin: 0;
+padding: 0;
+}
+
+.flex { /*Flexbox for containers*/
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.svg{
+  width: 50%;
+  justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.waves {
+position:relative;
+width: 100%;
+height:15vh;
+margin-bottom:-7px; /*Fix for safari gap*/
+min-height:100px;
+max-height:150px;
+}
+
+.content {
+position:relative;
+height:20vh;
+text-align:center;
+background-color: white;
+}
+
+/* Animation */
+
+.parallax > use {
+animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+animation-delay: -2s;
+animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+animation-delay: -3s;
+animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+animation-delay: -4s;
+animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+animation-delay: -5s;
+animation-duration: 20s;
+}
+@keyframes move-forever {
+0% {
+ transform: translate3d(-90px,0,0);
+}
+100% { 
+  transform: translate3d(85px,0,0);
+}
+}
+/*Shrinking for mobile*/
+@media (max-width: 700px) {
+.waves {
+  height:50px;
+  min-height:50px;
+}
+.content {
+  height:30vh;
+}
+h1 {
+  margin-top: 20px;
+  font-size:20px;
+}
+
+.header{
+height: 80%;
+}
+.span{
+font-size: 20px;
+}
+.learn{
+width: 50%;
+height: 40px;
+background-color: #D84E4E;
+color: white;
+border-radius: 50px;
+font-family: Cascadia Mono;
+border: 0;
+margin-top: 20%;
+margin-left: 11%;
+
+}
+img{
+margin-top: 30%;
+width:40%;
+}
+.content {
+position:relative;
+height:10vh;
+text-align:center;
+background-color: white;
+}
+}
