@@ -1,5 +1,5 @@
 var uiConfig = {
-  signInSuccessUrl: 'index.html',
+  signInSuccessUrl: 'start.html',
   signInOptions: [
           firebase.auth.EmailAuthProvider.PROVIDER_ID,
   ],
