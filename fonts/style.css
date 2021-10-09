@@ -5,4 +5,7 @@
     font-style: normal;
     font-weight: normal;
     src: local('Orange Juice Regular'), url('OrangeJuice-vXl7.woff') format('woff');
+    src: local('Orange Juice Regular'), url('OrangeJuice-vXl7.ttf') format('ttf');
+    
     }
+    
