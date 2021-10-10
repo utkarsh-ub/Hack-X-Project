@@ -4,7 +4,7 @@ var uiConfig = {
           firebase.auth.EmailAuthProvider.PROVIDER_ID,
   ],
 
-  tosUrl: 'index.html'
+  tosUrl: 'login.html'
 };
 var ui = new firebaseui.auth.AuthUI(firebase.auth());
 ui.start('#firebaseui-auth-container', uiConfig);
