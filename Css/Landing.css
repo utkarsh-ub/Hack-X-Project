@@ -24,6 +24,7 @@ border-radius: 50px;
 font-family: Cascadia Mono;
 border: 0;
 margin-left: 80%;
+cursor: pointer;
 }
 .learn{
   width: 20%;
