@@ -10,7 +10,7 @@
 
 Well, It's absolutely possible.
 
-Here is the Link of the website-
+Try it Out-
 
 
 <h1 align="center"> Financial Classroom </h1>
