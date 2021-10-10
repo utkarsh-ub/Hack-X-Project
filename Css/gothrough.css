@@ -49,14 +49,14 @@ height: 100%;
 }
 
 .card--1 .card__img, .card--1 .card__img--hover {
-    background-image: url('../images/Earn-01-min.jpg');
+    background-image: url('../images/PIC!.svg');
 }
 
 .card--2 .card__img, .card--2 .card__img--hover {
-    background-image: url('../images/Save-min.jpg');
+    background-image: url('../images/Save.svg');
 }
 .card--3 .card__img, .card--3 .card__img--hover {
-    background-image: url('../images/Credit-01-01-min.jpg');
+    background-image: url('../images/Credit-01.svg');
 }
 .card__like {
     width: 18px;
