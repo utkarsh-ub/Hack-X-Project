@@ -8,7 +8,7 @@
 
 <h3>How does becoming a millionaire and retiring early sound to you?</h3>
 
-<p align="center"><img src="https://giphy.com/gifs/worldstar-worldstarhiphop-wshh-xUPGGw7jxnwjk073sA" width = 40%></p>
+<p align="center"><img src="https://giphy.com/gifs/worldstar-worldstarhiphop-wshh-xUPGGw7jxnwjk073sA" width = 50%></p>
 
 Well, It's absolutely possible.
 
