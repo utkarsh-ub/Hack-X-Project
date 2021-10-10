@@ -1,19 +1,7 @@
 # Hack-X-Project
 
-
-
-
-
-<p align="center"><img src="https://tenor.com/view/winning-lottery-love-donald-duck-money-gif-13815357" width = 40%></p> 
-<p align="center"><img src="https://media.giphy.com/media/l4q83E0RjRSGLXBLO/giphy.gif" width = 40%></p>
-
 <h3>How does becoming a millionaire and retiring early sound to you?</h3>
 
-
-
-
- 
- 
 Well, It's absolutely possible.
 
 Try it Out-
