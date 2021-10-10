@@ -24,6 +24,7 @@ border-radius: 50px;
 font-family: Cascadia Mono;
 border: 0;
 margin-left: 80%;
+cursor: pointer;
 }
 .learn{
   width: 20%;
@@ -164,4 +165,12 @@ height:10vh;
 text-align:center;
 background-color: white;
 }
+}
+
+#logo {
+  width: 70px;
+  height: auto;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
 }
