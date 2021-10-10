@@ -8,7 +8,7 @@
 
 <h3>How does becoming a millionaire and retiring early sound to you?</h3>
 
-<p align="center"><img src="https://tenor.com/view/winning-lottery-love-donald-duck-money-gif-13815357" width = 50%>
+<p align="center"><img src="https://tenor.com/58av.gif" width = 50%>
  
  
 Well, It's absolutely possible.
