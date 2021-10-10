@@ -8,7 +8,9 @@
 
 <h3>How does becoming a millionaire and retiring early sound to you?</h3>
 
-<p align="center"><img src="https://tenor.com/58av.gif" width = 50%>
+
+<p align="center">
+ <div class="tenor-gif-embed" data-postid="13815357" data-share-method="host" data-aspect-ratio="0.832636" data-width="100%"><a href="https://tenor.com/view/winning-lottery-love-donald-duck-money-gif-13815357">Winning Lottery GIF</a>from <a href="https://tenor.com/search/winning-gifs">Winning GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
  
  
 Well, It's absolutely possible.
