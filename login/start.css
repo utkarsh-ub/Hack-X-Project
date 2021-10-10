@@ -23,9 +23,10 @@ h1 {
     font-size: 50px;
     
     margin-top: 50px;
-    
+    cursor: pointer;
     border: 0;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(
+      -45deg, #ee7752, #e73c7e, #135eff, #9123d5);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
  
@@ -311,8 +312,8 @@ header label img{
 }
 /* second title part */
 #title-portion2{
-  background-color:#A9E4D7;
-  color: #fff;;
+  background-color: rgb(211 245 255 / 50%);
+  color: rgb(0, 0, 0);;
   font-family: "Montserrat";
   padding: 7% 15%;
   text-align:left;
@@ -349,8 +350,8 @@ header label img{
 #testimonials {
   padding: 2% 15%;
   text-align: center;
-  background-color:  #184d47;
-  color: #fff;
+  background-color: rgb(211 245 255 / 50%);
+  color: rgb(10, 195, 252);
 }
 
 
@@ -358,11 +359,32 @@ header label img{
   font-size: 2.5rem;
 }
 
-
+/*
 #testimonials{
 background-color: #63B4B8;
 }
+*/
 
 
 
 
+/*footer*/
+footer{
+  background: #63b4b8;;
+}
+a:link{
+  color: #fff;
+  text-decoration: none;
+}
+a:visited{
+  color: #fff;
+  text-decoration: none;
+}
+a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+a:active{
+  color: #fff;
+  text-decoration: none;
+}
