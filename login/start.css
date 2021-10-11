@@ -38,7 +38,7 @@ h1 {
 header{
   
   top:0px;
-  background-color: rgb(29, 4, 97);
+  background-color: #004872;
   border-bottom: 4px solid rgb(48, 186, 153) ;
   padding-right:20px;
   display: flex;
@@ -46,6 +46,11 @@ header{
   align-items: center;
 }
  
+
+.logo h1{
+  color: rgb(212, 212, 212);
+  display: inline-block;
+}
 .logo h1:hover{
   text-shadow: 0px 0px 6px rgb(255, 255, 255);
   color: white;
@@ -57,6 +62,7 @@ align-items: center;
 width:250px;
 }
 .links a{
+  
   text-decoration: none;
   color: rgb(212, 212, 212);
 }
@@ -80,6 +86,7 @@ header label{
   position: relative;
   display: none;
   right: 20px;
+  
   width: 30px; 
   height: 47.619047px;
   box-sizing: border-box;

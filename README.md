@@ -1,18 +1,7 @@
 # Hack-X-Project
 
-
-
-
-
-<!-- <p align="center"><img src="" width = 40%></p> some image related to covid will be added later-->
-
 <h3>How does becoming a millionaire and retiring early sound to you?</h3>
 
-
-
-
- 
- 
 Well, It's absolutely possible.
 
 Try it Out-
