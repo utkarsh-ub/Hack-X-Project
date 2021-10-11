@@ -1,0 +1,67 @@
+body {
+    background:#007bff;
+  }
+  .h5 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: xX-large;
+  }
+  .container {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .carousel {
+    background: #fff;
+    border: 2px solid #0400ff;
+    border-radius: 5px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+  
+    position: relative;
+  }
+  .slider {
+    display: flex;
+    height: 100%;
+    width: 500%;
+    flex-shrink: 0;
+    transition: all 0.5s;
+  
+  }
+  section {
+    flex-basis: 20%;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .controls button.next {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #007bff;
+  }
+  .controls button.prev {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #007bff;
+  }
+  .controls button i {
+    font-size: 50px;
+  }
+  
+  
